@@ -1,0 +1,36 @@
+digraph G {
+  layout=dot;
+  rankdir=LR;
+
+  Y[shape=box, label="True Parameters"];
+  U[shape=box, label="UKCP Simulations"];
+  Z[shape=box, label="Met Office Observed Data"];
+  theta_true[shape=box, label=<&#952;>];
+
+  X1[shape=box, label=<X1>];
+  X2[shape=box, label=<X2>];
+  Xdots[shape=plain, label="&#8942;"];
+  X3[shape=box, label=<XP>];
+  theta1[shape=box, label=<&#952;1>];
+  theta2[shape=box, label=<&#952;2>];
+  theta3[shape=box, label=<&#952;P>];
+
+  "Z" -> "Y"[dir=back];
+
+  "Z" -> "theta_true";
+
+  "Y" -> "U";
+  "U" -> "X1";
+  "U" -> "X2";
+  "U" -> "Xdots" [style=invis];
+  "U" -> "X3";
+  "X1" -> "theta1";
+  "X2" -> "theta2";
+  "X3" -> "theta3";
+  
+  {rank=same;Z, theta_true}
+  {rank=same;Y}
+  {rank=same;U}
+  {rank=same;X1, X2, Xdots, X3}
+  {rank=same;theta1, theta2, theta3}
+}
