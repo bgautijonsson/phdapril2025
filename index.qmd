@@ -879,7 +879,7 @@ read_csv(here::here("data", "benchmark_matern_likelihood.csv")) |>
 
 #### **Recalibration of Projections with Latent Bayeslinear Method**
 
-::: {.columns style="font-size:60%; margin-bottom:0px; padding-bottom:0px;"}
+::: {.columns style="font-size:55%; margin-bottom:0px; padding-bottom:0px;"}
 ::: {.column width="50%"}
 ### UKCP Local Projections
 
@@ -899,7 +899,7 @@ read_csv(here::here("data", "benchmark_matern_likelihood.csv")) |>
 :::
 :::
 
-::: {style="margin-top:-60px;padding-top:0px"}
+::: {style="margin-top:-70px;padding-top:0px"}
 ```{dot}
 //| label: paper2
 //| file: paper2.dot
