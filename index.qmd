@@ -87,7 +87,7 @@ library(evd)
 
 - **Copula Integration**
   - Matérn-like spatial structure
-  - Improved extremal dependence
+  - Improved data-level dependence
   - Computational efficiency
 :::
 
