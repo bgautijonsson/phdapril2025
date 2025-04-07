@@ -11,7 +11,7 @@ format:
       flat: false
       barhtml:
         header: "<div class='menubar mb-10'><ul class='menu'></ul><div>"
-        footer: "<div class='footer footer-default' style='display: block;'> <a href='https://bggj.is/midtermpresentation' target='_blank'>bggj.is/midtermpresentation</a></div>"
+        footer: "<div class='footer footer-default' style='display: block;'> <a href='https://bggj.is/phdapril2025' target='_blank'>bggj.is/phdapril2025</a></div>"
 html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
