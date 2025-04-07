@@ -77,7 +77,7 @@ library(evd)
 
 ## Overview
 
-::: {.columns style="font-size:70%"}
+::: {.columns style="font-size:65%"}
 ::: {.column width="50%"}
 ### Methodology Development
 - **Max-and-Smooth Framework**
