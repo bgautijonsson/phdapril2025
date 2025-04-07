@@ -75,6 +75,46 @@ library(evd)
 :::
 :::
 
+## Overview
+
+::: {.columns style="font-size:70%"}
+::: {.column width="50%"}
+### Methodology Development
+- **Max-and-Smooth Framework**
+  - Two-step statistical approach
+  - Efficient parameter estimation
+  - Spatial dependence modeling
+
+- **Copula Integration**
+  - Matérn-like spatial structure
+  - Improved extremal dependence
+  - Computational efficiency
+:::
+
+::: {.column width="50%"}
+### Applications & Impact
+- **Climate Projections**
+  - UKCP recalibration
+  - Bias correction methods
+  - Uncertainty quantification
+
+- **Software Implementation**
+  - R package development
+  - High-performance computing
+  - User-friendly interface
+:::
+:::
+
+::: {style="font-size:65%; margin-top:20px;"}
+**Key Innovations**
+
+- Novel spatial dependence structure for extreme precipitation
+- Efficient algorithms for large-scale computation
+- Improved uncertainty assessment in climate projections
+:::
+
+
+
 ## Max-and-Smooth
 
 ::: {.columns style="font-size:60%"}
